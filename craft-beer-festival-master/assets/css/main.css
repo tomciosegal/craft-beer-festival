@@ -1,0 +1,717 @@
+body {
+    background-color: #f5f5dc;
+}
+
+/*NAVBAR*/
+
+
+.border{
+    
+}
+
+nav {
+    min-height: 9.5%;
+}
+
+.nav-link {
+    color: #000000;
+    font-weight: 500;
+}
+
+.navbar-toggler {
+    margin-left: 290px
+}
+
+.navbar-light a {
+    color: #000000;
+}
+
+.navbar-light a:hover {
+    color: rgba(12, 12, 12, 0.5)
+}
+
+.fixed-top {
+    position: fixed;
+    background-color: #f2e47c;
+    min-height: 40px;
+}
+
+.callout-paragraph {
+    color: #ffffff;
+    }
+
+
+/*LINKS*/
+
+.concert-links {
+    color: #add8e6;
+    text-decoration: none;
+}
+
+.concert-links:hover {
+    color: #ffffff;
+}
+
+.text-reasons {
+    font-weight: bold;
+}
+
+.callout-row {
+    width: 100%;
+    margin: auto;
+    padding-top: 5px;
+    padding-left: 0;
+    padding-right: 0;
+    background-image: url("../images/two-bottles.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+
+/*HEADINGS*/
+
+.header {
+    padding-bottom: 0px
+}
+.tickets-header{
+    word-spacing: 20px;
+}
+.partnership-heading{
+    margin-left: 20px;
+}
+
+.venue-header {
+    color: #ffffff;
+}
+
+.section-header {
+    margin-left: 20px;
+    margin-right: 20px;
+    border-left-width: 20px;
+    margin-top: 60px;
+    border-bottom-width: 80px;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 60px;
+    margin-bottom: 40px;
+    color: #ffffff;
+}
+
+.reasons-header {
+
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 40px;
+
+}
+
+.reason-content {
+    background-color: rgb(0, 0, 0);
+    opacity: 0.99;
+    background: #00000057;
+
+}
+
+.gallery-heading {
+    background-repeat: no-repeat;
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+.gallery-section {
+    background-image: url("../images/poppies.jpg");
+}
+
+.heading-row {
+    background-color: #f5f5dc;
+
+}
+
+.gallery-heading {
+    margin-bottom: 40px;
+}
+
+.header {
+    padding-bottom: 30px;
+}
+
+ul {
+    list-style-type: none;
+    color: #ffffff;
+}
+
+/* section*/
+
+section {
+    margin-bottom: 50px;
+}
+.scroll-paragraph{
+    color: #000000;
+    font-weight: 700;
+}
+
+/* audio*/
+
+.audio-content {
+    position: absolute;
+    bottom: 0;
+    background: rgba(245, 245, 220, 0.62);
+    color: #f1f1f1;
+    width: 100%;
+    text-align: center;
+    z-index: 1;
+}
+.row, 
+.container {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/* video*/
+.video-callout{
+    text-align: center;
+}
+
+.col1-video {
+    padding-left: 260px;
+}
+
+.row1-video {
+    margin-bottom: 0px;
+    margin-top: 20px;
+}
+
+.row2-video {
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+.video-promo1{
+    width: 100%;
+    height:260px;
+}
+
+
+
+#myVideo {
+    position: relative;
+    right: 0;
+    bottom: 0;
+    min-width: 50%;
+    min-height: 50%;
+    z-index: -1;
+    width: 100%;
+}
+
+
+
+.section-youtube {
+    padding-right: 40px;
+}
+
+.advert-row {
+    background-color: #000000;
+    background: #00000061;
+}
+
+
+
+/* buttons*/
+
+#myBtn {
+    width: 200px;
+    font-size: 18px;
+    padding: 10px;
+    border: none;
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+}
+
+#myBtn:hover {
+    background: #ddd;
+    color: #000000;
+}
+
+.btn-success {
+    background-color: #008000;
+}
+
+.btn-success:hover {
+    background-color: #22bd22;
+}
+
+#buy-button {
+    width: 160px;
+    height: 70px;
+    background-color: #008000;
+    color: #ffffff;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+#buy-button:hover {
+    background-color: #22bd22;
+
+}
+
+#contact-button {
+    width: 160px;
+    height: 70px;
+    background-color: #008000;
+    color: #ffffff;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+    margin-top: 40px;
+}
+
+
+
+/*GALLERY*/
+
+.gallery-opacity {
+    background-color: #000000;
+    background: #00000061;
+}
+
+
+
+.img-gallery {
+    width: 80%;
+    height: 80%;
+    margin-bottom: 40px;
+    transition: transform .7s;
+    margin-left: 10%;
+    margin-right: 0;
+}
+
+.img-participants {
+    width: 80%;
+    margin-bottom: 40px;
+    transition: transform .7s;
+    margin-left: 0;
+    margin-right: 0;
+
+}
+
+
+.img-gallery:hover,
+.img-participants:hover {
+    -ms-transform: scale(1.2);
+    /* IE 9 */
+    -webkit-transform: scale(1.2);
+    /* Safari 3-8 */
+    transform: scale(1.2)
+}
+
+
+
+.gallery-row {}
+
+.your-tap {
+    font-size: xx-large;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.modal-content {
+    padding-left: 20px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+}
+
+
+
+
+
+/* Add some content at the bottom of the video/page */
+
+.content {
+    position: absolute;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    z-index: -1;
+}
+
+.beer-mug-home {
+    background-image: url("https://i.imgur.com/W9KfQc2.jpg");
+    position: relative;
+    height: 50vh;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+
+    background-position: center 25%;
+    z-index: 1;
+}
+
+.text-mobile {
+    text-align: center;
+    margin-top: 0px;
+    background-color: #0000006e;
+}
+
+.add-container {
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-top: 0px;
+}
+
+/*QUOTES */
+
+#quotes {
+    width: 100%;
+    background-image: url("../images/feedback.jpg");
+    padding-left: 0px;
+}
+
+.quotes-content {
+    font-weight: bold;
+    color: #000000;
+}
+
+.feedback-wrapper {
+    background-color: #000000;
+    background: #00000061;
+}
+
+.feedback-paragraph {
+    color: #f5f5f5;
+}
+
+
+.face-row {
+    margin-left: 40px;
+    padding-top: 20px;
+}
+
+.blockquote {
+    margin-bottom: 1rem;
+    font-size: 1.25rem;
+    color: #000000;
+    font-weight: bolder;
+    font-size: x-large;
+}
+
+.blockquote-footer {
+    display: block;
+    font-size: 80%;
+    color: #f2e47c;
+}
+
+.feedback-row {}
+
+/*REASONS-CONTAINER*/
+
+.reasons-container {
+    background-image: url("../images/art-beer.jpg");
+    color: #ffffff;
+}
+
+#reason-text {
+    color: #ffffff;
+    margin-bottom: 40px;
+    word-break: break-all;
+    padding-right: 3%;
+    padding-left: 3%;
+    text-align: center;
+
+}
+
+.text-reasons {
+    font-size: 14pt;
+    word-break: keep-all;
+    }
+
+.reasons-container ul {
+    color: #ffffff;
+}
+
+.reasons-header {
+    text-align: center;
+    font-size: xx-large;
+}
+.view-location{
+    text-align: center;
+    color:#ffffff;
+}
+
+
+hr {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 2px solid rgba(60, 41, 41, 0.72);
+}
+
+
+
+
+/*------------ SPONSORS ------------*/
+
+.sponsors-row {
+    margin-left: 40px;
+    margin-bottom: 40px;
+    margin-top: 40px;
+
+}
+
+.sponor-logo {
+    width: 50%;
+}
+
+
+/*------------ PARTNERSHIP ------------*/
+
+.partner-jpg {
+    width: 100%;
+    height: 320px;
+
+}
+
+.partnership-header {
+    padding-left: 250px;
+    margin-left: 150px;
+    padding-bottom: 20px;
+}
+
+
+
+
+
+/*------------ HEADER ------------*/
+
+.sponsors-header {
+    text-align: center;
+    color: #1b1c1d;
+    margin-left: 110px;
+}
+
+.section-header {
+    text-align: center;
+    font-size: 22pt;
+    font-weight: bolder;
+    padding-top: 40px;
+
+}
+
+#music-lineup-heading {
+    letter-spacing: 3px;
+}
+
+.header {
+    color: #0e0e0e;
+}
+
+.venue-container {
+    width: 100%;
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #f1e589;
+    padding-top: 4%;
+    margin-top: 60px;
+    background-image: url("../images/venue.jpg");
+    color: #ffffff;
+    background-position: 0%;
+}
+
+.venue-wrapper {
+    background-color: #000000;
+    background: #00000061;
+}
+
+.concert-location {
+    color: #add8e6;
+    text-decoration: none;
+    text-align: center;
+    }
+
+
+
+
+
+
+/*------------ FOOTER ------------*/
+
+.footer-container {
+    background-color: #f2e47c;
+}
+
+.footer-copyright {
+    padding-top: 25px;
+}
+
+
+#footer-details {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: 0;
+    margin-left: 0;
+    text-align: center;
+    background-color: #efef8d21;
+
+}
+
+.footer-row {}
+
+.social-a {}
+
+/* Style the button used to pause/play the video */
+
+/*------------ IMAGES ------------*/
+
+.beer-image-gallery {
+    background-image: url("../images/bbq.jpg");
+    background-position: center 35%;
+}
+
+/*------------ Music-Tickets ------------*/
+
+/*BUY TICKET MODAL*/
+
+.col-25 {
+    -ms-flex: 25%;
+    /* IE10 */
+    flex: 25%;
+}
+
+.col-50 {
+    -ms-flex: 50%;
+    /* IE10 */
+    flex: 50%;
+}
+
+.col-75 {
+    -ms-flex: 75%;
+    /* IE10 */
+    flex: 75%;
+}
+
+.col-25,
+.col-50,
+.col-75 {
+    padding: 0 16px;
+}
+
+.container-payement {
+    background-color: #f2f2f2;
+    padding: 5px 20px 15px 20px;
+    border: 1px solid lightgrey;
+    border-radius: 3px;
+}
+
+input[type=text] {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+label {
+    margin-bottom: 10px;
+    display: block;
+}
+
+.icon-container {
+    margin-bottom: 20px;
+    padding: 7px 0;
+    font-size: 24px;
+}
+
+.btn:hover {
+    background-color: #45a049;
+}
+
+a {
+    color: #00008b;
+}
+
+hr {
+    border: 1px #d3d3d3;
+}
+
+span.price {
+    float: right;
+    color: grey;
+}
+
+
+/* Style inputs for contact modal*/
+
+* {
+    box-sizing: border-box;
+}
+
+input[type=text],
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: #ffffff;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+/* Style the container/contact section */
+
+.contact-container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 10px;
+}
+
+/* Create two columns that float next to eachother */
+
+.column {
+    float: left;
+    width: 50%;
+    margin-top: 6px;
+    padding: 20px;
+}
+
+/* Clear floats after the columns */
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+
+@media screen and (max-width: 600px) {
+    .column,
+    input[type=submit] {
+        width: 100%;
+        margin-top: 0;
+    }
+}
+
+
+
+
